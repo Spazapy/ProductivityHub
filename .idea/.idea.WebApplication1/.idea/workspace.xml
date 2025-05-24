@@ -8,7 +8,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c97bda95-7b02-48b9-8a15-b9225a8a57dc" name="Changes" comment="initial" />
+    <list default="true" id="c97bda95-7b02-48b9-8a15-b9225a8a57dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ProductivityHub/Models/Database/ProductivityHubDataBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductivityHub/ProductivityHub.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ProductivityHub/ProductivityHub.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductivityHub/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductivityHub/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductivityHub/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductivityHub/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductivityHub/obj/Debug/net9.0/ProductivityHub.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductivityHub/obj/Debug/net9.0/ProductivityHub.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductivityHub/obj/Debug/net9.0/ProductivityHub.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductivityHub/obj/Debug/net9.0/ProductivityHub.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductivityHub/obj/Debug/net9.0/ProductivityHub.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ProductivityHub/obj/Debug/net9.0/ProductivityHub.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductivityHub/obj/Debug/net9.0/ProductivityHub.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductivityHub/obj/Debug/net9.0/ProductivityHub.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductivityHub/obj/ProductivityHub.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductivityHub/obj/ProductivityHub.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductivityHub/obj/ProductivityHub.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ProductivityHub/obj/ProductivityHub.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductivityHub/obj/ProductivityHub.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/ProductivityHub/obj/ProductivityHub.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductivityHub/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductivityHub/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductivityHub/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductivityHub/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductivityHub/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductivityHub/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductivityHub/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ProductivityHub/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductivityHub/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ProductivityHub/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +46,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Spazapy&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Spazapy/ProductivityHub.git&quot;,
+    &quot;accountId&quot;: &quot;04d2f33a-68ae-431f-bd2b-ac2ad58f4eb9&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ProductivityHub/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProductivityHub/Views/Home/Aufgaben.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -38,6 +69,7 @@
     <setting file="file://$PROJECT_DIR$/ProductivityHub/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProductivityHub/appsettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -108,7 +140,7 @@
       <workItem from="1748075845926" duration="185000" />
       <workItem from="1748076151472" duration="5825000" />
       <workItem from="1748081996445" duration="228000" />
-      <workItem from="1748082237051" duration="439000" />
+      <workItem from="1748082237051" duration="2577000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -118,12 +150,21 @@
       <option name="project" value="LOCAL" />
       <updated>1748082669975</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial">
+      <option name="closed" value="true" />
+      <created>1748082788841</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748082788841</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

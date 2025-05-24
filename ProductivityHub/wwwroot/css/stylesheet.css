@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url('lib/images/plain-dark-blue-product-background.jpg');
+    background-image: url('/lib/images/plain-dark-blue-product-background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
