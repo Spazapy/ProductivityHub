@@ -1,12 +1,21 @@
-﻿namespace ProductivityHub.Models;
+﻿using System.ComponentModel.DataAnnotations;
+using ProductivityHub.Models.Database;
+
+namespace ProductivityHub.Models;
 
 public class Series
 {
     public int Id { get; set; }
-    public string Title { get; set; }
-    public int SeasonsWatched { get; set; }
-    public int TotalSeasons { get; set; }
-    public string Platform { get; set; }
-    public string Status { get; set; } // z.B. "Abgeschlossen", "Läuft noch"
-    public string UserId { get; set; }
+    [MaxLength(150)]
+    public required string Title { get; set; }
+    public required int SeasonsWatched { get; set; }
+    public required int TotalSeasons { get; set; }
+    [MaxLength(150)]
+    public required string Platform { get; set; }
+    [MaxLength(150)]
+    public required string Status { get; set; } 
+    [MaxLength(150)]
+    public required string UserId { get; set; }
+    public int? AuthorId { get; set; }
+    public Author? Author { get; set; }
 }

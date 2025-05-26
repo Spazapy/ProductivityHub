@@ -1,11 +1,19 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ProductivityHub.Models;
+using ProductivityHub.Models.Database;
 
 namespace ProductivityHub.Controllers;
 
 public class HomeController : Controller
 {
+    private ProductivityHubDataBase _db;
+
+    public HomeController(ProductivityHubDataBase db)
+    {
+        _db = db;
+    }
     public IActionResult Index()
     {
         return View();
@@ -13,7 +21,8 @@ public class HomeController : Controller
 
     public IActionResult Spiele()
     {
-        return View();
+        var games = _db.Games;
+        return View(games);
     }
 
     public IActionResult Serien()
