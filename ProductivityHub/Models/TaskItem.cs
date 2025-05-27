@@ -15,6 +15,4 @@ public class TaskItem
     public required string Priority { get; set; } // Hoch, Mittel, Niedrig
     [MaxLength(150)]
     public required string UserId { get; set; }
-    public int? AuthorId { get; set; }
-    public Author? Author { get; set; }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marcel\\RiderProjects\\ProductivityHub\\ProductivityHub\\ProductivityHub.csproj": {}
+    "C:\\Users\\nmarc\\RiderProjects\\ProductivityHub\\ProductivityHub\\ProductivityHub.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marcel\\RiderProjects\\ProductivityHub\\ProductivityHub\\ProductivityHub.csproj": {
+    "C:\\Users\\nmarc\\RiderProjects\\ProductivityHub\\ProductivityHub\\ProductivityHub.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marcel\\RiderProjects\\ProductivityHub\\ProductivityHub\\ProductivityHub.csproj",
+        "projectUniqueName": "C:\\Users\\nmarc\\RiderProjects\\ProductivityHub\\ProductivityHub\\ProductivityHub.csproj",
         "projectName": "ProductivityHub",
-        "projectPath": "C:\\Users\\Marcel\\RiderProjects\\ProductivityHub\\ProductivityHub\\ProductivityHub.csproj",
-        "packagesPath": "C:\\Users\\Marcel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marcel\\RiderProjects\\ProductivityHub\\ProductivityHub\\obj\\",
+        "projectPath": "C:\\Users\\nmarc\\RiderProjects\\ProductivityHub\\ProductivityHub\\ProductivityHub.csproj",
+        "packagesPath": "C:\\Users\\nmarc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nmarc\\RiderProjects\\ProductivityHub\\ProductivityHub\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Marcel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\nmarc\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -36,9 +36,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Marcel\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\nmarc\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

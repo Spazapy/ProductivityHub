@@ -20,6 +20,5 @@ public class Game
     public required string Notes { get; set; }
     [MaxLength(150)]
     public required string UserId { get; set; }
-    public int? AuthorId { get; set; }
-    public Author? Author { get; set; }
+    
 }

@@ -1,5 +1,4 @@
 using Microsoft.EntityFrameworkCore;
-using ProductivityHub.Database;
 using ProductivityHub.Models.Database;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +12,4 @@ app.UseStaticFiles();
 
 app.MapControllerRoute(name: "default", pattern: "{controller=Home}/{action=Index}/{id?}");
 
-EnsureDatabase.ExecuteMigrations(app);
-EnsureDatabase.SeedDatabase(app);
 app.Run();

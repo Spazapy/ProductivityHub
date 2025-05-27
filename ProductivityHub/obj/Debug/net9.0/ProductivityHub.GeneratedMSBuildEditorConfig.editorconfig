@@ -17,41 +17,41 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProductivityHub
 build_property.RootNamespace = ProductivityHub
-build_property.ProjectDir = C:\Users\Marcel\RiderProjects\ProductivityHub\ProductivityHub\
+build_property.ProjectDir = C:\Users\nmarc\RiderProjects\ProductivityHub\ProductivityHub\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Marcel\RiderProjects\ProductivityHub\ProductivityHub
+build_property.MSBuildProjectDirectory = C:\Users\nmarc\RiderProjects\ProductivityHub\ProductivityHub
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Marcel/RiderProjects/ProductivityHub/ProductivityHub/Views/Home/Aufgaben.cshtml]
+[C:/Users/nmarc/RiderProjects/ProductivityHub/ProductivityHub/Views/Home/Aufgaben.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBdWZnYWJlbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/RiderProjects/ProductivityHub/ProductivityHub/Views/Home/Index.cshtml]
+[C:/Users/nmarc/RiderProjects/ProductivityHub/ProductivityHub/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/RiderProjects/ProductivityHub/ProductivityHub/Views/Home/Serien.cshtml]
+[C:/Users/nmarc/RiderProjects/ProductivityHub/ProductivityHub/Views/Home/Serien.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXJpZW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/RiderProjects/ProductivityHub/ProductivityHub/Views/Home/Spiele.cshtml]
+[C:/Users/nmarc/RiderProjects/ProductivityHub/ProductivityHub/Views/Home/Spiele.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTcGllbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/RiderProjects/ProductivityHub/ProductivityHub/Views/Shared/_Layout.cshtml]
+[C:/Users/nmarc/RiderProjects/ProductivityHub/ProductivityHub/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/RiderProjects/ProductivityHub/ProductivityHub/Views/_ViewImports.cshtml]
+[C:/Users/nmarc/RiderProjects/ProductivityHub/ProductivityHub/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marcel/RiderProjects/ProductivityHub/ProductivityHub/Views/_ViewStart.cshtml]
+[C:/Users/nmarc/RiderProjects/ProductivityHub/ProductivityHub/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

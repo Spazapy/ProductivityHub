@@ -16,6 +16,4 @@ public class Series
     public required string Status { get; set; } 
     [MaxLength(150)]
     public required string UserId { get; set; }
-    public int? AuthorId { get; set; }
-    public Author? Author { get; set; }
 }
