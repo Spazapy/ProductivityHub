@@ -1,0 +1,51 @@
+﻿@model SearchResults
+
+@{
+    ViewBag.Title = "Suchergebnisse";
+}
+
+<div class="jumbotron text-center">
+    <h1 class="display-4">Suchergebnisse:</h1>
+</div>
+@foreach (var item in Model.Games)
+{
+    <div class="card cards m-5">
+        <div class="card-header cards text-center">
+            @item.Title
+        </div>
+        <div class="card-body cards text-center">
+            <p>@item.GetType().Name</p>
+            <div class="d-flex justify-content-center gap-2 mt-3">
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-primary">Details</a>
+            </div>
+        </div>
+    </div>
+}
+@foreach (var item in Model.Series)
+{
+    <div class="card cards m-5">
+        <div class="card-header cards text-center">
+            @item.Title
+        </div>
+        <div class="card-body cards text-center">
+            <p>@item.GetType().Name</p>
+            <div class="d-flex justify-content-center gap-2 mt-3">
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-primary">Details</a>
+            </div>
+        </div>
+    </div>
+}
+@foreach (var item in Model.Tasks)
+{
+    <div class="card cards m-5">
+        <div class="card-header cards text-center">
+            @item.Title
+        </div>
+        <div class="card-body cards text-center">
+            <p>@item.GetType().Name</p>
+            <div class="d-flex justify-content-center gap-2 mt-3">
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-primary">Details</a>
+            </div>
+        </div>
+    </div>
+}
