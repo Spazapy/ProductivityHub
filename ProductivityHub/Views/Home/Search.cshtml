@@ -16,7 +16,7 @@
         <div class="card-body cards text-center">
             <p>@item.GetType().Name</p>
             <div class="d-flex justify-content-center gap-2 mt-3">
-                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-primary">Details</a>
+                <a asp-action="Details" asp-route-id="@item.Id" asp-controller="Game" class="btn btn-outline-primary">Details</a>
             </div>
         </div>
     </div>
@@ -30,7 +30,7 @@
         <div class="card-body cards text-center">
             <p>@item.GetType().Name</p>
             <div class="d-flex justify-content-center gap-2 mt-3">
-                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-primary">Details</a>
+                <a asp-action="Details" asp-route-id="@item.Id" asp-controller="Series" class="btn btn-outline-primary">Details</a>
             </div>
         </div>
     </div>
@@ -44,7 +44,7 @@
         <div class="card-body cards text-center">
             <p>@item.GetType().Name</p>
             <div class="d-flex justify-content-center gap-2 mt-3">
-                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-primary">Details</a>
+                <a asp-action="Details" asp-route-id="@item.Id" asp-controller="Task" class="btn btn-outline-primary">Details</a>
             </div>
         </div>
     </div>
