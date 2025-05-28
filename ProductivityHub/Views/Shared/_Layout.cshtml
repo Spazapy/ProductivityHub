@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>@ViewBag.Title</title>
     <link rel="stylesheet" href="@Url.Content("~/lib/bootstrap/dist/css/bootstrap.min.css")" />
-    <link rel="stylesheet" href="~/css/stylesheet.css" asp-append-version="true">
+    <link rel="stylesheet" href="@Url.Content("~/css/stylesheet.css")">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
@@ -30,7 +30,7 @@
             </div>
         <div class="search-container">
             <form asp-action="Search" asp-controller="Home" method="get">>
-                <input class="bg-dark" type="text" placeholder="Search.." name="word">
+                <input class="bg-dark text-white" type="text" placeholder="Search.." name="word">
                 <button class="bg-dark text-white" type="submit">Submit</button>
             </form>
         </div>
