@@ -49,9 +49,9 @@ public class HomeController : Controller
                                                  || s.UserId.Contains(lowerWord));
             var viewModel = new SearchResults
             {
-                Games = searchgames.ToList(),   // Materialize query results
-                Series = searchseries.ToList(), // Materialize query results
-                Tasks = searchtasks.ToList()    // Materialize query results
+                Games = searchgames.ToList(),   
+                Series = searchseries.ToList(), 
+                Tasks = searchtasks.ToList()    
             };
             return View(viewModel);   
         }
@@ -59,21 +59,6 @@ public class HomeController : Controller
     }
 
     public IActionResult Details()
-    {
-        return View();
-    }
-    public IActionResult Spiele()
-    {
-        var games = _db.Games;
-        return View(games);
-    }
-
-    public IActionResult Serien()
-    {
-        return View();
-    }
-
-    public IActionResult Aufgaben()
     {
         return View();
     }
